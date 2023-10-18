@@ -6,13 +6,9 @@
 
 body {
   display: grid;
+  height: 100vh;
   place-items: center;
   background-color: #dee2e6;
-}
-
-h1 {
-  margin-bottom: 20px;
-  margin-top: 20px;
 }
 
 a {
@@ -35,4 +31,13 @@ a {
 
 .anchor {
   font-size: 24px;
+}
+
+.social {
+  display: flex;
+  gap: 2rem;
+}
+
+.icon {
+  width: 20px;
 }

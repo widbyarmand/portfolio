@@ -1,7 +1,27 @@
+/* https://gwfh.mranftl.com/fonts  */
+@font-face {
+  font-display: swap;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  src: url("assets/fonts/Inter/inter-v12-latin-600.woff2") format("woff2"),
+    url("assets/fonts/Inter/inter-v12-latin-600.woff") format("woff");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: regular;
+  src: url("assets/fonts/Inter/inter-v12-latin-regular.woff2") format("woff2"),
+    url("assets/fonts/Inter/inter-v12-latin-regular.woff") format("woff");
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Inter";
 }
 
 body {
@@ -9,6 +29,7 @@ body {
   height: 100vh;
   place-items: center;
   background-color: #dee2e6;
+  font-family: "Inter";
 }
 
 a {

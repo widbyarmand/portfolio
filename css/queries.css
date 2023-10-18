@@ -1,22 +1,37 @@
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+@media (max-width: 479px) {
+  /* CSS rules for smaller screens */
+  header {
+    margin: 10% 5%;
+  }
+  h1 {
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    margin-bottom: 1.2rem;
+  }
+}
+
+@media only screen and (min-device-width: 480px) and (max-device-width: 780px) {
   /* Styles */
 
-  body {
-    padding-bottom: 40%;
+  header {
+    margin: 10% 5%;
   }
-
-  .anchor {
-    font-size: 20px;
-  }
-
   h1 {
-    font-size: 32px;
-    padding: 0 24px;
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+    margin-bottom: 1.2rem;
   }
+}
 
-  h2 {
-    font-size: 28px;
-    padding: 0 24px;
+@media only screen and (min-device-width: 780px) and (max-device-width: 1300px) {
+  /* Styles */
+
+  header {
+    margin: 10% 5%;
+  }
+  h1 {
+    font-size: 3.4rem;
+    line-height: 3.8rem;
+    margin-bottom: 1.2rem;
   }
 }

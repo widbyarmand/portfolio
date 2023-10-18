@@ -1,44 +1,24 @@
-/* https://gwfh.mranftl.com/fonts  */
-@font-face {
-  font-display: swap;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 600;
-  src: url("/assets/fonts/Inter/inter-v12-latin-600.woff2") format("woff2"),
-    url("/assets/fonts/Inter/inter-v12-latin-600.woff") format("woff");
-}
-
-@font-face {
-  font-display: swap;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: regular;
-  src: url("/assets/fonts/Inter/inter-v12-latin-regular.woff2") format("woff2"),
-    url("/assets/fonts/Inter/inter-v12-latin-regular.woff") format("woff");
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Inter";
-}
-
-body {
+/* body {
   display: grid;
   height: 100vh;
   place-items: center;
   background-color: #dee2e6;
-  font-family: "Inter";
+} */
+body {
+  overflow-x: hidden; /* This hides the horizontal scrollbar */
+  white-space: nowrap; /* Prevents text from breaking and causing overflow */
 }
 
-a {
-  text-decoration: none;
+header {
+  display: grid;
+  place-items: center;
+  height: 100vh;
 }
+
 .anchor:link,
 .anchor:visited {
   color: black;
-  border-bottom: 2px solid #4c6ef5;
+  border-bottom: 0.3rem solid #4c6ef5;
 }
 
 .anchor:hover,
@@ -51,12 +31,17 @@ a {
 }
 
 .anchor {
-  font-size: 24px;
+  font-size: 2rem;
 }
 
 .social {
   display: flex;
   gap: 1rem;
+}
+
+h1 {
+  font-size: 4.8rem;
+  white-space: nowrap;
 }
 
 .icon {

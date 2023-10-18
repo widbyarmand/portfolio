@@ -8,3 +8,25 @@ body {
   place-items: center;
   background-color: #dee2e6;
 }
+
+a {
+  text-decoration: none;
+}
+.anchor:link,
+.anchor:visited {
+  color: black;
+  border-bottom: 2px solid #4c6ef5;
+}
+
+.anchor:hover,
+.anchor:active {
+  color: black;
+  border-bottom: 2px solid #4c6ef5;
+  cursor: pointer;
+  transition: 300ms;
+  color: blue;
+}
+
+.anchor {
+  font-size: 24px;
+}

@@ -1,22 +1,31 @@
-/* body {
-  display: grid;
-  height: 100vh;
-  place-items: center;
-  background-color: #dee2e6;
-} */
-body {
-  overflow-x: hidden; /* This hides the horizontal scrollbar */
-}
-
 header {
-  display: grid;
-  place-items: center;
-  height: 100vh;
-  white-space: normal;
-  padding-top: 10%;
-  padding-bottom: 10%;
+  margin: 10% auto;
+  width: 80%;
+  text-align: center;
 }
 
+h1 {
+  font-size: 4.8rem;
+  margin-bottom: 10%;
+}
+p {
+  font-size: 2rem;
+  word-wrap: break-word;
+}
+
+.social {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  margin-bottom: 40%;
+}
+.contact {
+  margin-bottom: 2rem;
+}
+
+.anchor {
+  font-size: 2.2rem;
+}
 .anchor:link,
 .anchor:visited {
   color: black;
@@ -30,25 +39,6 @@ header {
   cursor: pointer;
   transition: 300ms;
   color: blue;
-}
-
-.anchor {
-  font-size: 2.2rem;
-}
-
-.social {
-  display: flex;
-  gap: 1rem;
-  margin-bottom: 40%;
-}
-
-h1 {
-  font-size: 4.8rem;
-  margin-bottom: 10%;
-}
-h2 {
-  font-size: 3.8rem;
-  margin-bottom: 5%;
 }
 
 .icon {

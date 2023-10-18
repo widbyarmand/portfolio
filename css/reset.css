@@ -77,8 +77,5 @@ body {
 html,
 body {
   overflow-x: hidden; /* This hides the horizontal scrollbar */
-}
-html,
-body {
-  white-space: nowrap;
+  white-space: normal;
 }

@@ -6,13 +6,13 @@
 } */
 body {
   overflow-x: hidden; /* This hides the horizontal scrollbar */
-  white-space: nowrap; /* Prevents text from breaking and causing overflow */
 }
 
 header {
   display: grid;
   place-items: center;
   height: 100vh;
+  white-space: normal;
 }
 
 .anchor:link,
@@ -37,6 +37,7 @@ header {
 .social {
   display: flex;
   gap: 1rem;
+  margin-bottom: 40%;
 }
 
 h1 {

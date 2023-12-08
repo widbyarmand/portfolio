@@ -45,7 +45,7 @@
   --meduim-color: #4dabf7;
   --light-color: #d0ebff;
   --black-color: #212529;
-  --text-color: #495057;
+  --text-color: #222222;
   --gray-color: #ced4da;
   --bg-color: #f8f9fa;
   --touch-color: #12b886;
@@ -70,7 +70,7 @@ html {
 body {
   box-sizing: border-box;
   font-weight: 400;
-  background-color: var(--bg-color);
+  /* background-color: var(--blue-color); */
   color: var(--text-color);
   margin: 0;
   font-family: "Inter";

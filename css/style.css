@@ -25,6 +25,7 @@ p {
 
 .anchor {
   font-size: 2.2rem;
+  transition: 0.3s;
 }
 .anchor:link,
 .anchor:visited {
@@ -37,7 +38,6 @@ p {
   color: black;
   border-bottom: 2px solid #4c6ef5;
   cursor: pointer;
-  transition: 300ms;
   color: blue;
 }
 

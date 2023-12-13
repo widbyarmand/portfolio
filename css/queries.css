@@ -1,8 +1,11 @@
 @media only screen and (max-width: 767px) {
   /* CSS rules for phones go here */
 
-  html {
-    font-size: 45%;
+  h1 {
+    font-size: 2.4rem;
+  }
+  header {
+    width: 95%;
   }
 }
 
@@ -11,6 +14,8 @@
 
   html {
     font-size: 45%;
+    margin: 40% auto;
+    width: 90%;
   }
 }
 
@@ -29,7 +34,7 @@
 
   header {
     margin: 10% auto;
-    width: 40%;
+    width: 70%;
     text-align: center;
   }
 }
